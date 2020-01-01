@@ -1,4 +1,4 @@
-#SDES-CBC (Simplified DES + Cipher Block Chaining)
+#S-DES (Simplified DES + ECB/CBC)
 import random
 
 def toString(input_list):
