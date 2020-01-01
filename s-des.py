@@ -80,8 +80,8 @@ r2 = key_right.pop(0)
 key_right.append(r1)
 key_right.append(r2)
 
-print("LS-2 Left:", key_left)
-print("LS-2 Right:", key_right)
+print("LS-2 Left:", toString(key_left))
+print("LS-2 Right:", toString(key_right))
 combined_key = key_left + key_right
 k2 = ['', '', '', '', '', '', '', '']
 p8_permute(combined_key, k2)
@@ -253,13 +253,3 @@ for i in range(len(blocks)):
     output += Block(blocks[i])
 
 print(output)
-
-
-
-
-
-
-
-
-
-
