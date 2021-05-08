@@ -69,7 +69,7 @@ r1 = key_right.pop(0)
 key_right.append(r1)
 
 print("LS-1 Left:", toString(key_left))
-print("LS-1 Light:", toString(key_right))
+print("LS-1 Right:", toString(key_right))
 
 #5. Combine and permute key
 combined_key = key_left + key_right
